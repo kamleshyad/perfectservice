@@ -186,7 +186,7 @@ span.break{display: block; color: var(--white) !important;}
 .testimonialsec .item p + p{margin-top: 20px;}
 .testimonialsec .item h4{font-size: 18px; color: var(--yellow); line-height: normal; margin-top: 25px; font-weight: 500;}
 
-.footercontact{padding: 40px 0; text-align: center;  background: #f1f1f1;}
+.footercontact{padding: 40px 0; text-align: center;}
 .footercontact p{font-size: 18px; color: var(--black); font-weight: 400; line-height: 26px; width: 40%; margin: 20px auto 30px;}
 .footercontact a{display: inline-flex; color: var(--white); padding: 11px 22px; border-radius: 6px; background: var(--navyblue); letter-spacing: 1.2px; font-weight: 500; text-align: center; font-size: 16px}
 .footercontact a:hover{background: var(--yellow);}
