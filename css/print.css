@@ -2,11 +2,11 @@
 body {margin:0; padding:0;font:normal 18px 'Montserrat', sans-serif; color:#b3b3b3; line-height:normal;}
 
 :root{
-    --black: #212121;
-    --navyblue : #022658;
-    --yellow : #faa343;
-    --blue : #1f3e9b;
-    --white : #fff;
+  --black: #212121;
+  --navyblue : #022658;
+  --yellow : #faa343;
+  --blue : #1f3e9b;
+  --white : #fff;
 }
 
 /*** GLOBAL SELECTORS ***/
@@ -16,6 +16,47 @@ a{text-decoration: none; transition: all 0.3s linear;}
 .reset{margin: 0; padding: 0; list-style: none;}
 img{max-width: 100%; height: auto;}
 br{display: none;}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/montserrat-v25-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 .owl-carousel, .owl-carousel .owl-item { -webkit-tap-highlight-color:transparent; position:relative } 
 .owl-carousel { display:none; width:100%; z-index:1;}
@@ -51,41 +92,41 @@ br{display: none;}
 /* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */ 
 .fadeOut  {  -webkit-animation-name : fadeOut  ;  animation-name : fadeOut  ;}  
 @-webkit-keyframes  fadeOut  {
-  0% {
-    opacity : 1   ;
-  }  
-  100% {
-    opacity : 0   ;
-  }  
+0% {
+  opacity : 1   ;
+}  
+100% {
+  opacity : 0   ;
+}  
 }
 @keyframes  fadeOut  {
-  0% {
-    opacity : 1   ;
-  }  
-  100% {
-    opacity : 0   ;
-  }  
+0% {
+  opacity : 1   ;
+}  
+100% {
+  opacity : 0   ;
+}  
 }
 
 @keyframes smoothScroll {
-	0% {
-		transform: translateY(-100px);
-	}
-	100% {
-		transform: translateY(0px);
-	}
+0% {
+  transform: translateY(-100px);
+}
+100% {
+  transform: translateY(0px);
+}
 }
 
 @keyframes ticker {
-    0% {
-        -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
+  0% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
 
-    }
-    100% {
-        -webkit-transform: translate3d(-100%, 0, 0);
-                transform: translate3d(-100%, 0, 0);
-    }
+  }
+  100% {
+      -webkit-transform: translate3d(-100%, 0, 0);
+              transform: translate3d(-100%, 0, 0);
+  }
 }
 
 /*Main Content*/
