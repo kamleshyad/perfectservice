@@ -192,7 +192,7 @@ span.break{display: block; color: var(--white) !important;}
 .partnersec .mutualslider{margin-top: 50px;}
 
 .mutualsec{padding: 50px 0 0;}
-.mutualsec .mutualwrap{margin-top: 50px; display: grid; grid-template-columns: repeat(2,1fr); gap: 30px; align-items: center;}
+.mutualsec .mutualwrap{margin-top: 50px; display: grid; grid-template-columns: repeat(2,1fr); gap: 30px; align-items: baseline;}
 .mutualsec .mutualcont ul{font-size: 0; display: grid; grid-template-columns: 1fr; gap: 30px;}
 .mutualsec .mutualcont ul li{padding: 20px 40px 20px 135px; background: var(--navyblue); color: var(--white); font-size: 18px; font-weight: 500; line-height: normal; clip-path: polygon(50% 0%, 97% 0, 100% 50%, 97% 100%, 3% 100%, 0 50%, 3% 0); position: relative;}
 .mutualsec .mutualcont ul li:nth-child(even){padding: 20px 135px 20px 40px;}
