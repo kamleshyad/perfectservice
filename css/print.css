@@ -236,7 +236,7 @@ span.break{display: block; color: var(--white) !important;}
 
 .footercontact{padding: 50px 0; text-align: center;}
 .footercontact p{font-size: 18px; color: var(--black); font-weight: 500; line-height: 26px; margin: 20px auto 30px;}
-.footercontact p span{text-align: center;}
+.footercontact p span{display: block;}
 .footercontact a{display: inline-flex; color: var(--white); padding: 14px 30px; border-radius: 6px; background: var(--navyblue); letter-spacing: 1.2px; font-weight: 600; text-align: center; font-size: 18px}
 .footercontact a:hover{background: var(--yellow); color: var(--navyblue);}
 
