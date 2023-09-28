@@ -1,5 +1,5 @@
 /*** GLOBAL SETTING ***/
-body {margin:0; padding:0;font:normal 18px 'Montserrat', sans-serif; color:#b3b3b3; line-height:normal;}
+body {margin:0; padding:0;font:normal 18px 'Mulish', sans-serif; color:#b3b3b3; line-height:normal;}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd,q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li, fieldset, form, label, legend{margin:0; padding:0; border:0; outline:0; font-size:100%; background:transparent; resize:none}
 body {line-height:1}
 :root{
@@ -133,20 +133,20 @@ transform: translateY(0px);
 
 /*Main Content*/
 
-h3.title{font-size: 36px; color: var(--navyblue); text-align: center; font-weight: 600; line-height: normal; text-transform: capitalize;}
+h3.title{font-size: 36px; color: var(--navyblue); text-align: center; font-weight: 800; line-height: normal; text-transform: capitalize; letter-spacing: 1px;}
 h3.title span{color: var(--yellow);}
 
 .headersec{padding: 15px 0;}
 .headersec .container{display: flex; justify-content: space-between; align-items: center;}
 .headersec .headerright,.headersec .headerright ul{display: flex; align-items: center; gap: 35px;}
-.headersec .headerright ul li a{color: var(--black); display: inline-block; font-size: 16px; line-height: normal; font-weight: 600;}
+.headersec .headerright ul li a{color: var(--black); display: inline-block; font-size: 18px; line-height: normal; font-weight: 600;}
 .headersec .headerright ul li a:hover{color: var(--yellow);}
 .headersec .callbtn a{display: inline-block; color: var(--white); padding: 11px 22px; border-radius: 6px; background: var(--navyblue); letter-spacing: 1.2px; font-weight: 600; font-size: 16px}
 .headersec .callbtn a:hover{background: var(--yellow);}
 
 .bannersec{background: var(--navyblue); padding: 90px 0 110px;}
 .bannersec .container{display: grid; grid-template-columns: repeat(2,1fr); gap: 80px; align-items: center;}
-.bannercaption h2{font-size: 40px; color: #fff; text-transform: capitalize; font-weight: 600; line-height: 60px;}
+.bannercaption h2{font-size: 42px; color: #fff; text-transform: capitalize; font-weight: 700; line-height: 60px; letter-spacing: 1px;}
 .bannercaption h2 span{color: var(--yellow);}
 span.break{display: block; color: var(--white) !important;}
 .bannerimg{text-align: end;}
@@ -159,9 +159,9 @@ span.break{display: block; color: var(--white) !important;}
 .aboutsec{padding: 60px 0;}
 .aboutsec .aboutwrap{display: grid; grid-template-columns: 1fr 1.5fr; gap: 30px; align-items: center;}
 .aboutsec .aboutcontent h3{text-align: left; margin-bottom: 30px;}
-.aboutsec .aboutcontent p{font-size: 17px; color: black; font-weight: 500; line-height: 28px; letter-spacing: 0.5px;}
+.aboutsec .aboutcontent p{font-size: 18px; color: black; font-weight: 500; line-height: 28px; letter-spacing: 0.5px;}
 .aboutsec .aboutcontent p+p{margin-top: 20px;}
-.learnbtn a{display: inline-block; color: var(--white); padding: 14px 30px; border-radius: 6px; background: var(--navyblue); letter-spacing: 1.2px; font-weight: 600; margin-top: 30px; font-size: 18px;}
+.learnbtn a{display: inline-block; color: var(--white); padding: 15px 35px; border-radius: 6px; background: var(--navyblue); letter-spacing: 1.2px; font-weight: 700; margin-top: 30px; font-size: 18px;}
 .learnbtn a:hover{background: var(--yellow); color: var(--navyblue);}
 
 .partnersec{background: #f1f1f1; padding: 60px 0;}
@@ -182,13 +182,13 @@ span.break{display: block; color: var(--white) !important;}
 .insurancesec{padding: 50px 0;}
 .insurancesec ul{display: grid; grid-template-columns: repeat(3,1fr); gap: 40px; justify-content: center; align-items: center; margin-top: 50px;}
 .insurancesec ul li{text-align: center; padding: 20px; box-shadow: rgba(147, 147, 147, 0.5) 0px 5px 12px; border-radius: 12px;}
-.insurancesec ul li h4{margin: 20px 0px; font-size: 24px; line-height: normal; font-weight: 600; color: var(--navyblue);}
-.insurancesec ul li p{font-size: 16px; color: var(--black); line-height: 26px; font-weight: 500; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; letter-spacing: 0.5px;}
-.insurancesec ul li a{display: inline-block; font-size: 18px; color: var(--yellow); margin-top: 20px; font-weight: 500; transition: all 0.3s linear; position: relative;}
+.insurancesec ul li h4{margin: 20px 0px; font-size: 28px; line-height: normal; font-weight: 700; color: var(--navyblue); letter-spacing: 0.5px;}
+.insurancesec ul li p{font-size: 18px; color: var(--black); line-height: 26px; font-weight: 500; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; letter-spacing: 0.5px;}
+.insurancesec ul li a{display: inline-block; font-size: 20px; color: var(--yellow); margin-top: 20px; font-weight: 500; transition: all 0.3s linear; position: relative;}
 .insurancesec ul li a::after{content: '\2197'; position: absolute; content: '\2197'; position: absolute; top: calc(50% - 15px); right: -30px; font-weight: 600; font-size: 25px; line-height: normal;  transform: rotate(50deg); color: var(--yellow); transition: all 0.3s linear;}
 .insurancesec ul li a:hover, .insurancesec ul li a:hover::after{color: var(--navyblue);}
 .insurancesec .viewbtn{display: flex; justify-content: center;}
-.insurancesec .viewbtn a{display: inline-flex; color: var(--white); padding: 14px 30px; border-radius: 6px; background: var(--navyblue); letter-spacing: 1.2px; font-weight: 600; text-align: center; margin: 50px auto 0; font-size: 18px;}
+.insurancesec .viewbtn a{display: inline-flex; color: var(--white); padding: 15px 35px; border-radius: 6px; background: var(--navyblue); letter-spacing: 1.2px; font-weight: 600; text-align: center; margin: 50px auto 0; font-size: 18px;}
 .insurancesec .viewbtn a:hover{background: var(--yellow); color: var(--navyblue);}
 
 .partnersec .mutualslider{margin-top: 50px;}
@@ -220,9 +220,9 @@ span.break{display: block; color: var(--white) !important;}
 .blogsec .imgsec{position: relative;}
 .blogsec .imgsec .metasec { position: absolute; right: 0; bottom: 0; background: var(--blue); padding: 11px 12px 11px 25px; clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%); }
 .blogsec .imgsec .metasec p { font-size: 15px; color: var(--white); font-weight: 400; line-height: 18px; display: inline-block; }
-.blogsec .contentbox h4, .blogsec .contentbox h4 a{font-size: 22px; color: var(--navyblue); font-weight: 600; line-height: 30px; margin-top: 20px;}
+.blogsec .contentbox h4, .blogsec .contentbox h4 a{font-size: 24px; color: var(--navyblue); font-weight: 700; line-height: 30px; margin-top: 20px;}
 .blogsec .contentbox h4 a:hover{color: var(--black);}
-.blogsec .contentbox p{font-size: 17px; color: var(--black); font-weight: 500; line-height: 26px; margin-top: 15px;}
+.blogsec .contentbox p{font-size: 18px; color: var(--black); font-weight: 500; line-height: 26px; margin-top: 15px;}
 .blogsec .blogbtn{margin-top: 60px; display: flex; justify-content: center;}
 .blogsec .blogbtn a{display: inline-flex; color: var(--navyblue); padding: 13px 40px; border-radius: 6px; background: var(--white); letter-spacing: 1.2px; font-weight: 600; text-align: center; font-size: 18px; transition: all 0.3s linear;}
 .blogsec .blogbtn a:hover{background: var(--yellow);}
@@ -233,7 +233,7 @@ span.break{display: block; color: var(--white) !important;}
 .testimonialsec .item {text-align: center; background: #f1f1f1; padding: 40px 65px 30px; width: 1120px; box-sizing: border-box; position: relative; border-radius: 10px;}
 .testimonialsec .item p{font-size: 18px; color: var(--black); font-weight: 500; line-height: 29px; font-style: italic;}
 .testimonialsec .item p + p{margin-top: 20px;}
-.testimonialsec .item h4{font-size: 24px; color: var(--yellow); line-height: normal; margin-top: 25px; font-weight: 600;}
+.testimonialsec .item h4{font-size: 28px; color: var(--yellow); line-height: normal; margin-top: 25px; font-weight: 700;}
 
 .footercontact{padding: 50px 0; text-align: center;}
 .footercontact p{font-size: 18px; color: var(--black); font-weight: 500; line-height: 26px; margin: 20px auto 30px;}
