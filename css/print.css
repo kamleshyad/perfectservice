@@ -11,12 +11,13 @@ body {line-height:1}
 }
 
 /*** GLOBAL SELECTORS ***/
+p:empty,br { display: none !important; }
+a, a:focus{text-decoration: none; outline: 0;}
 a{text-decoration: none; transition: all 0.3s linear;}
 .container{max-width: min(1290px, 96%); margin: 0 auto; width: auto;}
 .sm-container{max-width: min(1200px, 96%); margin: 0 auto;}
 .reset{margin: 0; padding: 0; list-style: none;}
 img{max-width: 100%; height: auto;}
-br{display: none;}
 
 /* montserrat-regular - latin */
 @font-face {
